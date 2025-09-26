@@ -1,0 +1,32 @@
+@use "variables" as *;
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: $text-color;
+}
+
+header {
+  background: $primary-color;
+  padding: 1rem;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    color: white;
+  }
+
+  input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+  }
+}
+
+main {
+  padding: 1rem;
+}

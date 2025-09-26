@@ -1,0 +1,26 @@
+{
+  "faculties": [
+    {
+      "name": "Faculty of Science",
+      "lecturers": [
+        {
+          "id": 1,
+          "name": "Dr. Alice Johnson",
+          "courses": ["Biology 101", "Genetics"],
+          "reviews": [
+            {
+              "student": "John Doe",
+              "rating": 5,
+              "comment": "Great lecturer, very clear explanations."
+            },
+            {
+              "student": "Jane Smith",
+              "rating": 4,
+              "comment": "Helpful but sometimes moves too fast."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
